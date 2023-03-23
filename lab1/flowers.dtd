@@ -1,0 +1,8 @@
+<!ELEMENT galactic (cosmic_bodies)>
+<!ELEMENT cosmic_bodies (type*)>
+<!ELEMENT type (name, cosmic_body*)>
+<!ELEMENT cosmic_body (name, description, image, link)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT image (#PCDATA)>

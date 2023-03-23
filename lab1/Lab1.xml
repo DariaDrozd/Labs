@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flowers SYSTEM "./flowers.dtd">
+<?xml-stylesheet type="text/css" href="./flowers.css"?>
+<floral_world>
+<flower_type>
+<name>Рожеві квіти</name>
+<flower>
+<name>Троянда</name>
+<description>
+Троянда - це одна з найпопулярніших квітів в світі. Вона відома своєю красою та ароматом. Троянди можуть бути різного кольору, але найпопулярніші серед них - рожеві.
+</description>
+<image src="./lab1/37e9832_5cf0f5cfc687a.jpg">37e9832_5cf0f5cfc687a.jpg</image>
+<link>https://uk.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D1%8F%D0%BD%D0%B4%D0%B0</link>
+</flower>
+<flower>
+<name>Глід</name>
+<description>
+Глід - це квітка з родини глідових, відома своїм використанням у ландшафтному дизайні. Глід розташовується на кущах та деревах та має рожеві квіти, які розкриваються навесні.
+</description>
+<image>глід.jpg</image>
+<link>https://uk.wikipedia.org/wiki/%D0%93%D0%BB%D1%96%D0%B4</link>
+</flower>
+<flower>
+<name>Троянда</name>
+<description>
+Троянда - це одна з найпопулярніших квітів в світі. Вона відома своєю красою та ароматом. Троянди можуть бути різного кольору, але найпопулярніші серед них - рожеві.
+</description>
+<image>троянда.jpg</image>
+<link>https://uk.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D1%8F%D0%BD%D0%B4%D0%B0</link>
+</flower>
+</flower_type>
+</floral_world>
