@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lab2 SYSTEM "./lab2.dtd">
+<?xml-stylesheet type="text/css" href="./lab2.css"?>
+
+<body>
+    <university_data>
+        <name>Дар'я</name>
+        <surname>167</surname>
+        <patronimic>52</patronimic>
+        <previous_study>рудий</previous_study>
+        <faculty>зелений</faculty>
+    </university_data>
+</body>

@@ -1,0 +1,49 @@
+* {
+    display: block;
+}
+
+body {
+    background-color: white;
+}
+
+university_data name, university_data surname, university_data patronimic,
+university_data previous_study, university_data faculty {
+ text-align: center;
+ color: rebeccapurple;
+ font-size: 120%;
+ 
+}
+
+university_data name::before {
+    color:black;
+    content:"Ваше ім'я: ";
+}
+university_data surname::before {
+    color:black;
+    content:"Ваш зріст: ";
+}
+university_data patronimic::before {
+    color:black;
+    content:"Ваша вага: ";
+}
+university_data previous_study::before {
+    color:black;
+    content:"Ваш колір волосся: ";
+}
+university_data faculty::before {
+    color:black;
+    content:"Ваш колір очей:";
+}
+
+university_data {
+    border-color: blue;
+    margin-top: 400px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 50px35px;
+    font-family: 'Verdana';
+    overflow: hidden;
+
+}

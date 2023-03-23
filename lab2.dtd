@@ -1,0 +1,8 @@
+<!ELEMENT body (university_data*)>
+<!ELEMENT university_data (name, surname, patronimic, previous_study, faculty)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT patronimic (#PCDATA)>
+<!ELEMENT previous_study (#PCDATA)>
+<!ELEMENT faculty (#PCDATA)>
