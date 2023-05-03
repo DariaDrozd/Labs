@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Завдання 1</title>
+	<script>
+		function findNumbers() {
+			let num1 = parseInt(prompt("Введіть від'ємне ціле число №1:"));
+			if (isNaN(num1) || num1 >= 0) {
+				alert("Введіть від'ємне ціле число №1!");
+				return;
+			}
+			let num2 = parseInt(prompt("Введіть від'ємне ціле число №2:"));
+			if (isNaN(num2) || num2 >= 0) {
+				alert("Введіть від'ємне ціле число №2!");
+				return;
+			}
+			let minNum = Math.min(num1, num2);
+			let maxNum = Math.max(num1, num2);
+			let diff = Math.abs(num1 - num2);
+			let res = "";
+			for (let i = minNum; i <= maxNum; i++) {
+				if (i % diff == 0) {
+					res += i + ", ";
+				}
+			}
+			if (res == "") {
+				alert("У вказаному діапазоні немає чисел, що діляться без залишку на " + diff + "!");
+			} else {
+				alert("Числа, що діляться без залишку на " + diff + " у вказаному діапазоні: " + res.slice(0, -2));
+			}
+		}
+	</script>
+</head>
+<body>
+	<button onclick="findNumbers()">Знайти числа</button>
+</body>
+</html>
